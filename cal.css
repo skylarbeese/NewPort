@@ -1,0 +1,557 @@
+.cal {
+    width: 90%;
+}
+.cal-page {
+    width: 100%;
+}
+.cal-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cal-title h1 {
+    color:black;
+    font-size: 70px;
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+}
+
+.cal-title ul {
+    justify-content: left;
+    display: flex;
+}
+.cal-title ul p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.cal-title ul li {
+    list-style: none;
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.div {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    
+    display: flex;
+}
+.overview, .my-role {
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.my-role p {
+    width: 90%;
+    font-size: 22px;
+ 
+}
+.overview p {
+    width: 90%;
+    font-size: 22px;
+    
+}
+.overview h1 p, .my-role h1 p {
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+.overview h1, p {
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+.my-role h1, p {
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+/*.site-con {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aquamarine;
+}
+.site-img {
+    width: 40%;
+    height: 50px;
+
+}*/
+@media screen and (min-width: 0px) and (max-width:900px) { 
+    .cal-title h1 {
+        color:black;
+        font-size: 55px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+    }
+    .cal-title ul li {
+        list-style: none;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .my-role p {
+        width: 90%;
+        font-size: 16px;
+     
+    }
+    .overview p {
+        width: 90%;
+        font-size: 16px;
+        
+    }
+    .overview h1 p, .my-role h1 p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .overview h1, p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .my-role h1, p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .my-role h1 {
+        font-size: 30px;
+    }
+    .overview h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:680px) { 
+    .cal-title h1 {
+        color:black;
+        font-size: 40px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+    }
+  
+    .cal-title ul li {
+        list-style: none;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+    .my-role p {
+        width: 90%;
+        font-size: 14px;
+        font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+    }
+    .overview p {
+        width: 90%;
+        font-size: 14px;
+        font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+    }
+    .overview h1 p, .my-role h1 p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .overview h1, p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .my-role h1, p {
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .my-role h1 {
+        font-size: 20px;
+        font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+    }
+    .overview h1 {
+        font-size: 20px;
+        font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+    }
+}
+.div-step {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+}
+.img-cal-c {
+    background-color: rgb(105, 80, 41);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    
+}
+.img-cal-con {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.img-cal {
+    width: 14%;
+ 
+    
+    margin: .5rem;
+    
+height: 400px;
+
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.f-img-con {
+    width: 30%;
+    padding: 1rem;
+    
+    margin: 1rem;
+    height: 500px;
+    margin-left: 2rem;
+background-repeat: no-repeat;
+background-size: contain;
+}
+@media screen and (min-width: 0px) and (max-width:1500px) { 
+
+    .img-cal {
+        width: 14%;
+     
+        
+        margin: .5rem;
+        
+    height: 340px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:1300px) { 
+
+    .img-cal {
+        width: 14%;
+     
+        
+        margin: .5rem;
+        
+    height: 290px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:1000px) { 
+
+    .img-cal {
+        width: 14%;
+     
+        
+        margin: .5rem;
+        
+    height: 250px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:880px) { 
+    .cal-title ul {
+        justify-content: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cal-title ul p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+    .cal-title ul li {
+        list-style: none;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+       .img-cal-con {
+       
+        width: 90%;
+     
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    } 
+    .img-cal {
+        width: 14%;
+     
+        
+        margin: .5rem;
+        
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+    .div-step {
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:740px) { 
+    .cal-title ul p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+    .cal-title ul li {
+        list-style: none;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
+    .img-cal {
+        width: 14%;
+     
+        
+        margin: .5rem;
+        
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:740px) { 
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
+    .img-cal {
+        width: 17%;
+     
+        
+        margin: .5rem;
+        
+    height: 170px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+    .div-step {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:680px) { 
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
+    .img-cal {
+        width: 17%;
+     
+        
+        margin: .5rem;
+        
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:680px) { 
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
+    .img-cal {
+        width: 17%;
+     
+        
+        margin: .5rem;
+        
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:520px) { 
+    .cal-title ul li {
+        list-style: none;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 16px;
+        
+    }
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+ 
+       .img-cal-con {
+       
+        width: 90%;
+     
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    } 
+    .img-cal {
+        width: 100%;
+     
+        
+        margin: .5rem;
+        
+    height: 160px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+    .div {
+        padding-bottom: .5rem;
+    }
+    .div-step {
+        padding-top: 0rem;
+        
+    }
+    .div-step .overview {
+        width: 80%;
+    }
+    .div-step .overview p {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:480px) { 
+    .img-cal-c {
+        
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+       .img-cal-con {
+       
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+       grid-gap: .3rem;
+        grid-template-columns: 40% 40%;
+       
+        grid-auto-rows: minmax( auto);
+    } 
+    .img-cal {
+        width: 70%;
+     
+        
+        margin: .5rem;
+        
+    height: 240px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:370px) { 
+    .img-cal-c {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+       .img-cal-con {
+       
+        width: 90%;
+     
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    } 
+    .img-cal {
+        width: 50%;
+     
+        
+        margin: .5rem;
+        
+    height: 270px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+}
+@media screen and (min-width: 0px) and (max-width:500px) { 
+    .div {
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        justify-content: center;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .overview, .my-role {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
