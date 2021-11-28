@@ -174,17 +174,30 @@ li a{
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    background-color: aqua;
 }
 
 .img {
-    background-color: aqua;
+    
     width: 100%;
-    height: 40vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+}
+.logo {
+    width: 100%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    background-position: center;
 }
 .grad {
     background-color: rgb(15, 15, 15, .6);
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     position: absolute;
     z-index: 1;
 }
@@ -200,7 +213,7 @@ li a{
 }
 .img-gr a {
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -236,20 +249,20 @@ a button:hover {
 }
 @media screen and (min-width: 0px) and (max-width:970px) {
     .img {
-        background-color: aqua;
+      
         width: 100%;
-        height: 40vh;
+        height: 50vh;
     }
     .grad {
         background-color: rgb(15, 15, 15, .6);
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         position: absolute;
         z-index: 1;
     }
     .img-gr a {
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -271,9 +284,9 @@ a button:hover {
       
     }
     .img {
-        background-color: aqua;
+       
         width: 100%;
-        height: 40vh;
+        height: 50vh;
     }
     .grad {
         background-color: rgb(15, 15, 15, .6);
@@ -284,7 +297,7 @@ a button:hover {
     }
     .img-gr a {
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -295,20 +308,20 @@ a button:hover {
 }
 @media screen and (min-width: 0px) and (max-width:700px) {
     .img {
-        background-color: aqua;
+       
         width: 100%;
-        height: 30vh;
+        height: 50vh;
     }
     .grad {
         background-color: rgb(15, 15, 15, .6);
         width: 100%;
-        height: 30vh;
+        height: 50vh;
         position: absolute;
         z-index: 1;
     }
     .img-gr a {
         width: 100%;
-        height: 30vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         display: flex;
