@@ -201,7 +201,7 @@ li a{
     height: 100%;
     position: absolute;
     z-index: 1;
-    transform: translate(550px, 0px);
+    transform: translate(650px, 0px);
 }
 
 .text {
