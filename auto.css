@@ -672,7 +672,7 @@ align-items: initial;
     .skew {
         position: relative;
         width: 100vw;
-        height: 350vh;
+        height: 180vh;
         background-color: rgb(223, 223, 223);
         box-sizing: border-box;
         align-items: center;
