@@ -923,6 +923,13 @@ background-size: contain;
         flex-direction: column;
         padding-top: 3rem;
     }
+    .skew {
+        position: relative;
+        width: 100vw;
+        height: 440vh;
+       
+        padding-top: 6rem;
+    }
   /*  .mobile-con {
         z-index: 2;
         width: 90%;
@@ -1050,6 +1057,13 @@ align-items: initial;
         background-repeat: no-repeat;
         background-size: contain;
         
+    }
+    .skew {
+        position: relative;
+        width: 100vw;
+        height: 440vh;
+       
+        padding-top: 6rem;
     }
  }
  @media screen and (min-width: 0px) and (max-width:520px) {
