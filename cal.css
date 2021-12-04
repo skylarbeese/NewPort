@@ -130,7 +130,7 @@
 @media screen and (min-width: 0px) and (max-width:680px) { 
     .cal-title h1 {
         color:black;
-        font-size: 40px;
+        font-size: 30px;
         padding-top: .5rem;
         font-family: 'Cormorant Garamond', serif;
         font-weight: normal;
@@ -145,13 +145,13 @@
     }
     .my-role p {
         width: 90%;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     }
     .overview p {
         width: 90%;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     }
@@ -168,12 +168,12 @@
         font-family: 'Cormorant Garamond', serif;
     }
     .my-role h1 {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     }
     .overview h1 {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
     }
@@ -420,7 +420,7 @@ background-size: contain;
         padding-top: .5rem;
         font-family: 'Cormorant Garamond', serif;
         font-weight: lighter;
-        font-size: 16px;
+        font-size: 18px;
         
     }
     .img-cal-c {
@@ -541,7 +541,7 @@ background-size: contain;
 @media screen and (min-width: 0px) and (max-width:500px) { 
     .div {
         width: 100%;
-        padding-top: 3rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
         justify-content: center;
         
