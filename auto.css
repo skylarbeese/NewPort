@@ -1112,7 +1112,7 @@ align-items: initial;
     .skew {
         position: relative;
         width: 100vw;
-        height: 120vh;
+        height: 260vh;
        
         padding-top: 6rem;
     }
@@ -1154,7 +1154,7 @@ align-items: initial;
     .skew {
         position: relative;
         width: 100vw;
-        height: 250vh;
+        height: 450vh;
         padding-top: 6rem;
     }
     .mobile-con {
