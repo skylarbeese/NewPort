@@ -1061,7 +1061,7 @@ align-items: initial;
     .skew {
         position: relative;
         width: 100vw;
-        height: 440vh;
+        height: 240vh;
        
         padding-top: 6rem;
     }
