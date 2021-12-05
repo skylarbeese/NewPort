@@ -1239,6 +1239,12 @@ background-size: contain;
         .skew3 {
             height: 20vh;
         }
+        .skew4 {
+            
+            padding-top: 6rem;
+            padding-bottom: 5rem;
+          
+        }
  }
  @media screen and (min-width: 0px) and (max-width:450px) {
     .mobile-con {
@@ -1276,10 +1282,10 @@ background-size: contain;
           
         }
         .skew2 {
-            height: 20vh;
+            height: 35vh;
         }
         .skew3 {
-            height: 20vh;
+            height:35vh;
         }
  }
  /*.sk-con {
