@@ -625,6 +625,7 @@ background-position: center;
     display: flex;
     flex-direction: column;
 }
+
 /*.skew4::after {
     position: absolute;
     content: '';
@@ -639,6 +640,20 @@ background-position: center;
     transform-origin: top left;
    z-index: -1;
 } */
+.final-img-con {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;
+    width: 70%;
+}
+.final-con-auto {
+    width: 50%;
+    height: 250vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .wire-img-con {
     width: 90%;
     z-index: 2;
@@ -653,6 +668,11 @@ background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
+}
+.prototype-link button {
+    transform: translate(0px, 0px);
+    margin-top: 3rem;
+    font-size: 18px;
 }
 @media screen and (min-width: 0px) and (max-width:1300px) {
     .heading-con {
@@ -859,19 +879,19 @@ background-position: center;
     }
  }
  @media screen and (min-width: 0px) and (max-width:920px) {
- /*   .mobile-con {
-        position: absolute;
-        z-index: 3;
-        width: 90%;
-        margin-bottom: 0rem;
-        justify-content: center;
-        align-items: center;
-        display: grid;
-        grid-gap: 2rem;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(60vh, auto);
- 
-        } */
+    .heading-text h1 {
+        color: black;
+        font-size: 30px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+    }
+    .list-i p {
+        padding-right: 1rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+        font-size: 15px;
+    }
     .heading-img {
         width: 50%;
         height: 40vh;
@@ -1015,24 +1035,7 @@ background-size: contain;
        
         padding-top: 6rem;
     }
-  /*  .mobile-con {
-        z-index: 2;
-        width: 90%;
-        margin-bottom: 0rem;
-        margin-top: 2rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: initial;
-    align-items: initial;
-    }
-    .mobile-img {
-        width: 24%;
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        margin-top: 2rem;
-    } */
+
  }
  @media screen and (min-width: 0px) and (max-width:660px) {
     .mobile-con {
