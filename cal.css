@@ -11,7 +11,7 @@
 }
 .cal-title h1 {
     color:black;
-    font-size: 70px;
+    font-size: 55px;
     padding-top: .5rem;
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
@@ -31,7 +31,7 @@
     padding-top: .5rem;
     font-family: 'Cormorant Garamond', serif;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .div {
@@ -83,6 +83,7 @@
     height: 50px;
 
 }*/
+
 @media screen and (min-width: 0px) and (max-width:900px) { 
     .cal-title h1 {
         color:black;
@@ -262,6 +263,11 @@ background-size: contain;
     background-repeat: no-repeat;
     background-size: contain;
     
+    }
+    .overview, .my-role {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
     }
 }
 @media screen and (min-width: 0px) and (max-width:880px) { 

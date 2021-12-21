@@ -7,7 +7,13 @@
 }
 .photo-page {
     width: 90%;
+    margin-bottom: 3rem;
 }
+
+
+
+
+
 .banner-page {
   width: 100%;
 }
@@ -21,6 +27,584 @@
     align-items: center;
     display: flex;
 }
+.banner-img {
+  width: 100%;
+  height: 400px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.open-con {
+  width: 90%;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.over, .pic {
+  width: 50%;
+}
+.over h1 p {
+  color: black;
+padding-top: .5rem;
+font-family: 'Cormorant Garamond', serif;
+
+}
+.over h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  width: 90%;
+}
+.over p {
+  width: 90%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.goal-con {
+  width: 100%;
+  background-color: #3B6E70;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+/*  position: absolute; 
+  z-index: 1; */
+}
+.over ul {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: initial;
+}
+.over ul li{
+  font-size: 20px;
+  color: black;
+  padding-top: .5rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+.coo {
+  width: 100%;
+  
+}
+
+
+/*.sket {
+  position: relative;
+  width: 100%;
+  height: 400%;
+  background-color: #fcfcfc31;
+  box-sizing: border-box;
+
+  
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12rem;
+}
+.sket::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  transform: skewY(-3deg);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+ z-index: 1;
+} */
+.sket {
+  width: 100%;
+}
+.grad-back {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  
+  z-index: 1;
+}
+.img-background-con {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.img-back {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  filter: blur(0px);
+  background-color: black;
+}
+.test-logo {
+  position: absolute;
+  margin-top: 0rem;
+  width: 90%;
+  height: 100%;
+ z-index: 2;
+ 
+}
+.logo-con {
+  width: 100%;
+  margin-top: 2rem;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.521);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+}
+.logo {
+ width: 40%;
+ height: 90%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+.test-logo .over {
+  margin-top: 3rem;
+}
+.test-logo .over h1{
+  color: white;
+}
+.test-logo .over p{
+  color: white;
+  
+}
+.wires-con-div {
+  background-color: #3B6E70;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.wires-text {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.wires-con {
+  margin-top: 4rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.wires {
+  width: 90%;
+  height: 150vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 5rem;
+}
+.photo-fin-ui {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.text-photo {
+  width: 90%;
+  margin: 5rem;
+}
+
+.photo-re-con {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.photo-re {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 5rem;
+}
+.mock-re {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.mock-re .over {
+  width: 100%;
+ 
+}
+.mock-img-1 {
+  width: 100%;
+  height: 200vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media screen and (min-width: 0px) and (max-width:1200px) { 
+  .wires {
+    width: 90%;
+    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5rem;
+}
+.mock-img-1 {
+  width: 100%;
+  height: 150vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+}
+@media screen and (min-width: 0px) and (max-width:1000px) { 
+  .img-background-con {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+  .wires {
+    width: 90%;
+    height: 90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5rem;
+}
+.mock-img-1 {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.logo-con {
+  width: 100%;
+  margin-top: 2rem;
+  height: 30%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.521);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+}
+}
+@media screen and (min-width: 0px) and (max-width:900px) {
+  .wires-con {
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .photo-re {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 2rem;
+}
+  .wires {
+    width: 90%;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5rem;
+}
+
+.mock-img-1 {
+  width: 100%;
+  height: 90vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ }
+ @media screen and (min-width: 0px) and (max-width:800px) {
+  .test-logo .over {
+    margin-top: 3rem;
+    width: 70%;
+  }
+  .wires-text .over{
+    width: 70%;
+  }
+  .text-photo .over {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  .photo-re {
+    width: 100%;
+    justify-content: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+.mock-re {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  }
+  .wires {
+    width: 90%;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5rem;
+}
+  .mock-img-1 {
+    width: 100%;
+    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 2rem;
+}
+.img-background-con {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*.over h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  width: 90%;
+}
+.over p {
+  width: 90%;
+  font-size: 20px;
+  font-weight: lighter;
+} */
+ }
+ @media screen and (min-width: 0px) and (max-width:700px) {
+  .open-con {
+    width: 90%;
+    justify-content: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.open-con .over {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.open-con .over h1{
+  font-size: 23px;
+}
+.test-logo .over h1{
+  font-size: 23px;
+}
+.wires-text .over h1{
+  font-size: 23px;
+}
+.text-photo .over h1{
+  font-size: 23px;
+}
+ }
+ @media screen and (min-width: 0px) and (max-width:600px) {
+  .img-back {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: initial;
+    position: absolute;
+    z-index: -1;
+    filter: blur(0px);
+    
+}
+.grad-back {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  z-index: 1;
+}
+  .img-background-con {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner-img {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.test-logo .over {
+  margin-top: 2rem;
+  width: 90%;
+}
+.wires-text .over {
+  width: 90%;
+}
+.wires {
+  width: 90%;
+  height: 50vh;
+ 
+  margin-bottom: 5rem;
+}
+.text-photo .over {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+.logo-con {
+  width: 100%;
+  margin-top: 2rem;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.521);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+}
+ }
+ @media screen and (min-width: 0px) and (max-width:500px) {
+  .wires {
+    width: 90%;
+    height: 40vh;
+    margin-bottom: 5rem;
+}
+.text-photo {
+  width: 90%;
+  margin: 2rem;
+}
+.mock-img-1 {
+  width: 100%;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 2rem;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.open-con .over p{
+  font-size: 15px;
+}
+.test-logo .over p{
+  font-size: 15px;
+}
+.wires-text .over p{
+  font-size: 15px;
+}
+.text-photo .over p{
+  font-size: 15px;
+}
+ }
+/*.img-dec-con {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ position: relative;
+  transform: translateY(150px);
+}
+.coo {
+  width: 100%;
+  position: relative;
+}
+.dec {
+  width: 30%;
+  height: 70vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(0px);
+  z-index: -1;
+  
+} */
+
+
+/*.overview button{
+  border: solid rgb(0, 0, 0) 3px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  background-color: rgb(15, 15, 15, 0.5);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  width: 0%;
+  transform: translate(0px, 0px);
+  margin-top: 3rem;
+  font-size: 20px;
+} */
+/*
 .banner-img {
     width: 100%;
      
@@ -336,6 +920,7 @@ background-size: contain;
     }
   }
   @media screen and (min-width: 0px) and (max-width:1000px) { 
+    
     .wire-img-con {
         width: 80%;
         padding: 0rem;
@@ -407,6 +992,7 @@ background-size: contain;
         }
   }
   @media screen and (min-width: 0px) and (max-width:900px) { 
+    
     .wire-img-con {
        
         justify-content: space-between;

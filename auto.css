@@ -674,6 +674,21 @@ background-position: center;
     margin-top: 3rem;
     font-size: 18px;
 }
+.auto-personas {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+}
+.auto-persona {
+    width: 70%;
+    
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
 @media screen and (min-width: 0px) and (max-width:1300px) {
     .heading-con {
         margin-top: 3rem;
@@ -879,6 +894,7 @@ background-position: center;
     }
  }
  @media screen and (min-width: 0px) and (max-width:920px) {
+    
     .heading-text h1 {
         color: black;
         font-size: 30px;
@@ -1162,6 +1178,14 @@ background-size: contain;
     }
     .quote h1 {
         font-size: 20px;
+    }
+    .auto-persona {
+        width: 70%;
+        
+        height: 260px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
     }
  }
  @media screen and (min-width: 0px) and (max-width:520px) {
