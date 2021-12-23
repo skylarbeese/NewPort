@@ -461,7 +461,7 @@ font-family: 'Cormorant Garamond', serif;
   font-size: 23px;
 }
  }
-/* @media screen and (min-width: 0px) and (max-width:600px) {
+ @media screen and (min-width: 0px) and (max-width:600px) {
   .img-back {
     width: 100%;
     height: 100%;
