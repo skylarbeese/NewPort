@@ -1,0 +1,104 @@
+.show-cons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show-con {
+    width: 90%;
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+.show-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-img {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.sign {
+    width: 50%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.s-text {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.s-text h1 {
+    color: black;
+    font-size: 35px;
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+}
+.s-text p {
+    color: black;
+    font-size: 20px;
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+}
+.s-text h2 {
+    color: black;
+    font-size: 25px;
+    padding-top: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+}
+.s-text ul {
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: initial;
+align-items: initial;
+}
+.s-text ul li {
+    list-style: initial;
+    font-size: 18px;
+color: black;
+padding-top: .5rem;
+font-family: 'Cormorant Garamond', serif;
+}
+.show-de {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show-de-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.show-wires {
+    width: 100%;
+    display: flex;
+}
+.show-wire {
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

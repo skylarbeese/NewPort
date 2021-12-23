@@ -124,7 +124,7 @@ background-position: center center;
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    flex-direction: column;
 }
 
 .email-img-mock {
@@ -138,7 +138,7 @@ background-position: center center;
 .email-wires {
 
     width: 90%;
-    height: 350px;
+    height: 650px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -171,4 +171,331 @@ background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+}
+@media screen and (min-width: 0px) and (max-width:1000px) {
+    .email-img-con .banner-img {
+        width: 95%;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .email-wires {
+        width: 90%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 5rem;
+    }
+    .text-photo {
+        width: 90%;
+        margin: 2rem;
+    }
+    .text-photo .over{
+        width: 70%;
+        
+    }
+    .email-img-des {
+        width: 100%;
+        height: 650px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:900px) {
+    .email-img-con .banner-img {
+        width: 95%;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .email-wires {
+        width: 90%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 5rem;
+    }
+    .text-photo {
+        width: 90%;
+        margin: 2rem;
+    }
+    .text-photo .over{
+        width: 70%;
+        
+    }
+    .email-img-des {
+        width: 100%;
+        height: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .email-con .over p {
+        font-size: 18px;
+    }
+    .intro-email {
+        width: 90%;
+        justify-content: initial;
+        align-items: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    .email-con {
+        width: 100%;
+        justify-content: inherit;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .email-con .over ul li {
+        font-size: 18px;
+        color: black;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .res-con .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over {
+        width: 100%;
+    }
+    .text-photo .over {
+        width: 100%;
+    }
+    .text-photo .over p{
+        font-size: 18px;
+    }
+    .email-img-con {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .email-img-con .banner-img {
+        width: 95%;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .email-wires {
+        width: 90%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 5rem;
+    }
+    .text-photo {
+        width: 90%;
+        margin: 2rem;
+    }
+   
+    .email-img-des {
+        width: 100%;
+        height: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .wires-con-email {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .email-wires {
+        width: 90%;
+        height: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 1rem;
+    }
+    .persona-email {
+        width: 60%;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .res-con .over {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    .res-con .over p {
+       
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .wires-text-email .over h1{
+        font-size: 40px;
+    }
+    .text-photo .over h1{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .wires-text-email .over h1{
+        font-size: 40px;
+    }
+    .text-photo .over h1{
+        font-size: 40px;
+    }
+    .email-con .over ul li {
+        font-size: 18px;
+        color: black;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .res-con .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over {
+        width: 100%;
+    }
+    .text-photo .over {
+        width: 100%;
+    }
+    .text-photo .over p{
+        font-size: 18px;
+    }
+    
+.email-img-con .banner-img {
+
+    width: 95%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.email-img-des {
+    width: 100%;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .wires-text-email .over h1{
+        font-size: 25px;
+    }
+    .text-photo .over h1{
+        font-size: 25px;
+    }
+    .email-con .over ul li {
+        font-size: 18px;
+        color: black;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .email-con .over h2 {
+        
+        font-size: 20px;
+        
+    }
+    .res-con .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over p{
+        font-size: 18px;
+    }
+    .wires-text-email .over {
+        width: 100%;
+    }
+    .text-photo .over {
+        width: 100%;
+    }
+    .text-photo .over p{
+        font-size: 18px;
+    }
+    .text-photo .over h1{
+        font-size: 25px;
+    }
+    .res-con .over h1{
+        font-size: 25px;
+    }
+    .email-con .over h1{
+        font-size: 25px;
+    }
+.email-img-con .banner-img {
+
+    width: 95%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.email-img-des {
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.email-wires {
+    width: 90%;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 1rem;
+}
+
+.persona-email {
+
+    width: 60%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.email-con .over {
+    width: 100%;
+   
+}
 }
