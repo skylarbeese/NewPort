@@ -526,7 +526,7 @@ font-family: 'Cormorant Garamond', serif;
   border-radius: 5px;
 }
  }
- @media screen and (min-width: 0px) and (max-width:500px) {
+/* @media screen and (min-width: 0px) and (max-width:500px) {
   .wires {
     width: 90%;
     height: 40vh;
