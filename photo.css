@@ -451,6 +451,21 @@ font-family: 'Cormorant Garamond', serif;
 .text-photo .over h1{
   font-size: 23px;
 }
+.mock-img-1 {
+  width: 100%;
+  height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 2rem;
+}
+.mock-img-2 {
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
  }
  @media screen and (min-width: 0px) and (max-width:600px) {
   .img-back {
@@ -513,7 +528,7 @@ font-family: 'Cormorant Garamond', serif;
  @media screen and (min-width: 0px) and (max-width:500px) {
   .wires {
     width: 90%;
-    height: 350px;
+    
     margin-bottom: 5rem;
 }
 .text-photo {
@@ -528,13 +543,7 @@ font-family: 'Cormorant Garamond', serif;
   background-position: center center;
   margin-bottom: 2rem;
 }
-.mock-img-2 {
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+
 .open-con .over p{
   font-size: 15px;
 }
