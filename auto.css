@@ -347,7 +347,7 @@ font-size: 20px;
  }
  .heading-img {
      width: 50%;
-     height: 100vh;
+     height: 500px;
      background-color: transparent;
      background-position: center;
      background-repeat: no-repeat;
@@ -465,7 +465,7 @@ background-size: contain;
 }
 .site-img {
     width: 90%;
-    height: 60vh;
+    height: 350px;
     background-position: center;
     background-repeat: no-repeat;
 background-size: contain;
@@ -649,7 +649,7 @@ background-position: center;
 }
 .final-con-auto {
     width: 50%;
-    height: 250vh;
+    height: 800px;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -733,7 +733,7 @@ background-position: center;
     }
     .site-img {
         width: 80%;
-        height: 30vh;
+       
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -789,11 +789,7 @@ background-position: center;
      .auto-title {
         margin-left: 3rem;
      }
-     .heading-img {
-        width: 50%;
-        height: 50vh;
-       
-    }
+    
     .over {
         width: 100%;
         display: flex;
@@ -839,13 +835,7 @@ background-position: center;
         padding-top: 3rem;
         padding-bottom: 2rem;
     }
-    .site-img {
-        width: 80%;
-        height: 30vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  
     .site-co {
         width: 80%;
         margin-top: 5rem;
@@ -908,10 +898,8 @@ background-position: center;
         font-weight: lighter;
         font-size: 15px;
     }
-    .heading-img {
-        width: 50%;
-        height: 40vh;
-    }
+
+  
     .wire-con-auto {
         width: 70%;
         margin: .5rem;
@@ -978,6 +966,14 @@ background-position: center;
     }
  }
  @media screen and (min-width: 0px) and (max-width:760px) {
+    .final-img-con {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        width: 90%;
+    }
     .mobile-con {
         position: absolute;
         z-index: 3;
@@ -1012,7 +1008,7 @@ background-position: center;
     .heading-img {
         margin-top: 2rem;
         width: 100%;
-        height: 30vh;
+        height: 500px;
         background-color: transparent;
 background-position: center;
 background-repeat: no-repeat;
@@ -1026,13 +1022,7 @@ background-size: contain;
         background-size: contain;
         background-position: top center;
     }
-    .site-img {
-        width: 80%;
-        height: 20vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+ 
 
     .skew {
         position: relative;
@@ -1261,12 +1251,7 @@ background-size: contain;
     }
  }
  @media screen and (min-width: 0px) and (max-width:470px) {
-    .heading-img {
-        margin-top: 2rem;
-        width: 100%;
-        height: 20vh;
-        
-    }
+   
     .wire-img-con {
         width: 90%;
         z-index: 2;

@@ -132,8 +132,9 @@ font-family: 'Cormorant Garamond', serif;
 .img-background-con {
   width: 100%;
   height: 110vh;
-  position: relative;
   
+  position: relative;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -151,6 +152,10 @@ font-family: 'Cormorant Garamond', serif;
   background-color: black;
 }
 .test-logo {
+  justify-content: center;
+  
+  display: flex;
+  flex-direction: column;
   position: absolute;
   margin-top: 0rem;
   width: 90%;
@@ -214,7 +219,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .wires {
   width: 90%;
-  height: 150vh;
+  height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -254,14 +259,14 @@ font-family: 'Cormorant Garamond', serif;
 }
 .mock-img-1 {
   width: 100%;
-  height: 200vh;
+  height: 800px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .mock-img-2 {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -269,7 +274,7 @@ font-family: 'Cormorant Garamond', serif;
 @media screen and (min-width: 0px) and (max-width:1200px) { 
   .wires {
     width: 90%;
-    height: 110vh;
+   
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -277,31 +282,24 @@ font-family: 'Cormorant Garamond', serif;
 }
 .mock-img-1 {
   width: 100%;
-  height: 150vh;
+  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .mock-img-2 {
   width: 100%;
-  height: 100vh;
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 }
 @media screen and (min-width: 0px) and (max-width:1000px) { 
-  .img-background-con {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+
   .wires {
     width: 90%;
-    height: 90vh;
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -309,14 +307,14 @@ font-family: 'Cormorant Garamond', serif;
 }
 .mock-img-1 {
   width: 100%;
-  height: 100vh;
+  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .mock-img-2 {
   width: 100%;
-  height: 60vh;
+  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -351,7 +349,7 @@ font-family: 'Cormorant Garamond', serif;
 }
   .wires {
     width: 90%;
-    height: 80vh;
+    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -360,14 +358,14 @@ font-family: 'Cormorant Garamond', serif;
 
 .mock-img-1 {
   width: 100%;
-  height: 90vh;
+  height: 800px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .mock-img-2 {
   width: 100%;
-  height: 50vh;
+ 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -401,7 +399,7 @@ font-family: 'Cormorant Garamond', serif;
   }
   .wires {
     width: 90%;
-    height: 80vh;
+    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -409,20 +407,13 @@ font-family: 'Cormorant Garamond', serif;
 }
   .mock-img-1 {
     width: 100%;
-    height: 110vh;
+    height: 800px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 2rem;
 }
-.img-background-con {
-  width: 100%;
-  height: 80vh;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
+
 
 /*.over h1 {
   font-size: 40px;
@@ -481,14 +472,7 @@ font-family: 'Cormorant Garamond', serif;
   position: absolute;
   z-index: 1;
 }
-  .img-background-con {
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+
 .banner-img {
   width: 100%;
   height: 200px;
@@ -505,7 +489,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .wires {
   width: 90%;
-  height: 50vh;
+  height: 400px;
  
   margin-bottom: 5rem;
 }
@@ -526,10 +510,10 @@ font-family: 'Cormorant Garamond', serif;
   border-radius: 5px;
 }
  }
-/* @media screen and (min-width: 0px) and (max-width:500px) {
+ @media screen and (min-width: 0px) and (max-width:500px) {
   .wires {
     width: 90%;
-    height: 40vh;
+    height: 350px;
     margin-bottom: 5rem;
 }
 .text-photo {
@@ -538,7 +522,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .mock-img-1 {
   width: 100%;
-  height: 80vh;
+  height: 800px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -546,7 +530,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .mock-img-2 {
   width: 100%;
-  height: 40vh;
+  height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -563,6 +547,7 @@ font-family: 'Cormorant Garamond', serif;
 .text-photo .over p{
   font-size: 15px;
 }
+
  }
 /*.img-dec-con {
   width: 100%;
