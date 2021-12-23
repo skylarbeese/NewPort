@@ -662,12 +662,14 @@ background-position: center;
     display: flex;
 }
 .wire-con-auto {
-    width: 70%;
+    width: 100%;
+    
     margin: .5rem;
-    height: 1600px;
+    margin-top: 1rem;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top center;
+    background-position: center center;
 }
 .prototype-link button {
     transform: translate(0px, 0px);
@@ -841,14 +843,7 @@ background-position: center;
         margin-top: 5rem;
         
     }
-    .wire-con-auto {
-        width: 70%;
-        margin: .5rem;
-        height: 1100px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
+ 
   
     .site-co p {
     
@@ -899,15 +894,12 @@ background-position: center;
         font-size: 15px;
     }
 
-  
     .wire-con-auto {
-        width: 70%;
-        margin: .5rem;
-        height: 900px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
+       
+        height: 450px;
+       
     }
+   
     .site-co {
         width: 80%;
         margin-top: 3rem;
@@ -1014,14 +1006,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
     }
-    .wire-con-auto {
-        width: 70%;
-        margin: .5rem;
-        height: 800px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
+  
  
 
     .skew {
@@ -1057,14 +1042,7 @@ background-size: contain;
         grid-auto-rows: minmax(30vh, auto);
           
         }
-    .wire-con-auto {
-        width: 70%;
-        margin: 1rem;
-        height: 680px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
+
     .site-con {
         width: 100%;
         justify-content: center;
@@ -1135,14 +1113,7 @@ background-size: contain;
         padding-top: 0rem;
         padding-bottom: 0rem;
     }
-    .wire-con-auto {
-        width: 70%;
-        margin: .5rem;
-        height: 590px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-    }
+ 
     .skew {
         position: relative;
      
@@ -1179,6 +1150,11 @@ background-size: contain;
     }
  }
  @media screen and (min-width: 0px) and (max-width:520px) {
+    .wire-con-auto {
+       
+        height: 350px;
+       
+    }
     .skew2 {
         height: 20vh;
     }
@@ -1191,12 +1167,7 @@ background-size: contain;
         justify-content: space-between;
         display: flex;
     }
-    .wire-con-auto {
-        width: 90%;
-        margin: .5rem;
-        height: 580px;
-       
-    }
+  
     .heading-text h1 {
         font-size: 35px;
         padding-top: .5rem;
@@ -1260,21 +1231,7 @@ background-size: contain;
         flex-direction: column;
     }
    
-    .wire-con-auto {
-        width: 90%;
-        margin: .5rem;
-        height: 580px;
-    }
-    .wire-con-auto-s {
-        width: 90%;
-        margin: .5rem;
-        height: 510px;
-    }
-    .wire-con-auto-1 {
-        width: 90%;
-        margin: .5rem;
-        height: 1200px;
-    }
+  
     .auto-title {
         margin-left: 1rem;
     }
