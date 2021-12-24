@@ -386,14 +386,7 @@ font-family: 'Cormorant Garamond', serif;
   display: flex;
   flex-direction: column;
   }
-  .wires {
-    width: 90%;
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-bottom: 5rem;
-}
+
   .mock-img-1 {
     width: 100%;
     height: 800px;
@@ -491,12 +484,7 @@ font-family: 'Cormorant Garamond', serif;
 .wires-text .over {
   width: 90%;
 }
-.wires {
-  width: 90%;
-  height: 400px;
- 
-  margin-bottom: 5rem;
-}
+
 .text-photo .over {
   width: 90%;
   margin-bottom: 2rem;
