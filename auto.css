@@ -979,12 +979,12 @@ background-position: center;
         grid-auto-rows: minmax(40vh, auto);
           
         }
-        .skew2 {
+   /*     .skew2 {
             height: 30vh;
         }
         .skew3 {
             height: 30vh;
-        }
+        } */
     .heading-con {
         width: 100%;
         
@@ -1060,12 +1060,12 @@ background-size: contain;
     }
  }
  @media screen and (min-width: 0px) and (max-width:660px) {
-    .skew2 {
+  /*  .skew2 {
         height: 20vh;
     }
     .skew3 {
         height: 20vh;
-    }
+    } */
     .heading-text {
         width: 100%;
         
@@ -1155,12 +1155,12 @@ background-size: contain;
         height: 350px;
        
     }
-    .skew2 {
+ /*   .skew2 {
         height: 20vh;
     }
     .skew3 {
         height: 20vh;
-    }
+    } */
     .wire-img-con {
         width: 90%;
         z-index: 2;
