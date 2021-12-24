@@ -458,6 +458,18 @@ font-family: 'Cormorant Garamond', serif;
   background-repeat: no-repeat;
   background-position: center center;
 }
+.open-con .over p{
+  font-size: 15px;
+}
+.test-logo .over p{
+  font-size: 15px;
+}
+.wires-text .over p{
+  font-size: 15px;
+}
+.text-photo .over p{
+  font-size: 15px;
+} 
  }
  @media screen and (min-width: 0px) and (max-width:600px) {
   .img-back {
@@ -520,18 +532,7 @@ font-family: 'Cormorant Garamond', serif;
   margin-bottom: 2rem;
 }
 
-/*.open-con .over p{
-  font-size: 15px;
-}
-.test-logo .over p{
-  font-size: 15px;
-}
-.wires-text .over p{
-  font-size: 15px;
-}
-.text-photo .over p{
-  font-size: 15px;
-} */
+
 
  }
 /*.img-dec-con {
