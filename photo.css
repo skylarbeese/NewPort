@@ -362,7 +362,7 @@ font-family: 'Cormorant Garamond', serif;
  }
  @media screen and (min-width: 0px) and (max-width:800px) {
   .test-logo .over {
-    margin-top: 3rem;
+  
     width: 70%;
   }
   .wires-text .over{
@@ -370,7 +370,7 @@ font-family: 'Cormorant Garamond', serif;
   }
   .text-photo .over {
     width: 70%;
-    margin-bottom: 2rem;
+    
   }
   .photo-re {
     width: 100%;
