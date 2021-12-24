@@ -166,7 +166,7 @@ font-family: 'Cormorant Garamond', serif;
 .logo-con {
   width: 100%;
   margin-top: 2rem;
-  height: 40%;
+  height: 200px;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -319,18 +319,7 @@ font-family: 'Cormorant Garamond', serif;
   background-repeat: no-repeat;
   background-position: center center;
 }
-.logo-con {
-  width: 100%;
-  margin-top: 2rem;
-  height: 30%;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.521);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 5px;
-}
+
 }
 @media screen and (min-width: 0px) and (max-width:900px) {
   .wires-con {
@@ -512,18 +501,7 @@ font-family: 'Cormorant Garamond', serif;
   width: 90%;
   margin-bottom: 2rem;
 }
-.logo-con {
-  width: 100%;
-  margin-top: 2rem;
-  height: 20%;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.521);
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  border-radius: 5px;
-}
+
  }
  @media screen and (min-width: 0px) and (max-width:500px) {
   .wires {
