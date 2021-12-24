@@ -271,7 +271,7 @@ font-family: 'Cormorant Garamond', serif;
   background-repeat: no-repeat;
   background-position: center center;
 }
-@media screen and (min-width: 0px) and (max-width:1200px) { 
+/*@media screen and (min-width: 0px) and (max-width:1200px) { 
   .wires {
     width: 90%;
    
