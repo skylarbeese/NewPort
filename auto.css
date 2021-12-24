@@ -769,14 +769,7 @@ background-position: center;
         display: flex;
         flex-direction: column;
     }
-    .skew2 {
-        position: relative;
-        width: 100%;
-       
-       
-        box-sizing: border-box;
-        padding: 2rem;
-    }
+
  }
 
  @media screen and (min-width: 0px) and (max-width:1100px) {
@@ -869,14 +862,7 @@ background-position: center;
         display: flex;
         flex-direction: column;
     }
-    .skew2 {
-        position: relative;
-       
-     
-      
-        box-sizing: border-box;
-        padding: 2rem;
-    }
+
  }
  @media screen and (min-width: 0px) and (max-width:920px) {
     
@@ -937,14 +923,7 @@ background-position: center;
         flex-direction: column;
         padding-top: 3rem;
     }
-    .skew2 {
-        position: relative;
-      
-    
-      
-        box-sizing: border-box;
-        padding: 2rem;
-    }
+   
     .site-con {
         width: 100%;
         justify-content: center;
