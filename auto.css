@@ -646,7 +646,8 @@ background-position: center;
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
     width: 90%;
 }
 .final-con-auto {
@@ -655,7 +656,7 @@ background-position: center;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(255, 255, 255);
+   
     padding: .5rem;
 }
 .wire-img-con {
