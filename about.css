@@ -67,7 +67,14 @@ background-size: contain;
     font-weight: lighter;
     font-family: 'Cormorant Garamond', serif;
 }
-@media screen and (min-width: 0px) and (max-width:750px) { 
+@media screen and (min-width: 0px) and (max-width:900px) { 
+    .about-ed {
+        width: 100%;
+        justify-content: initial;
+        align-items: initial;
+        display: flex;
+        flex-direction: column;
+    }
     .about-header {
         Width: 100%;
         padding-top: 2rem;
@@ -75,6 +82,10 @@ background-size: contain;
     .img-about-con {
         width: 70%;
     }
+}
+@media screen and (min-width: 0px) and (max-width:750px) { 
+   
+   
     .about-header h1 {
         font-size: 50px;
         color: black;
@@ -93,13 +104,7 @@ background-size: contain;
         font-weight: lighter;
         font-family: 'Cormorant Garamond', serif;
     }
-    .about-ed {
-        width: 100%;
-        justify-content: initial;
-        align-items: initial;
-        display: flex;
-        flex-direction: column;
-    }
+
 }
 @media screen and (min-width: 0px) and (max-width:450px) { 
     .about-header {
