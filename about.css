@@ -107,9 +107,9 @@ background-size: contain;
 
 }
 @media screen and (min-width: 0px) and (max-width:450px) { 
-    .about-header {
-        Width: 50%;
-        padding-top: 2rem;
+   
+    .img-about-con {
+        width: 100%;
     }
     .about-header h1 {
         font-size: 40px;
