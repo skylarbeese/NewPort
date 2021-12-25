@@ -218,7 +218,7 @@ li a{
     height: 100%;
     position: absolute;
     z-index: 1;
-    transform: translate(650px, 0px);
+    transform: translate(750px, 0px);
 }
 
 .text {
@@ -300,6 +300,11 @@ li a{
         flex-direction: column;
         position: absolute;
         z-index: 2;
+    }
+    .img-gr {
+        width: 100%;
+        height: 350px;
+        
     }
  }
  @media screen and (min-width: 0px) and (max-width:800px) {
@@ -386,4 +391,20 @@ li a{
     padding-right: 5px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: lighter;
+}
+@media screen and (min-width: 0px) and (max-width:550px) {
+    .img-gr {
+        width: 100%;
+        height: 250px;
+        
+    }
+    .proj {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
 }
