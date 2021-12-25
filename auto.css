@@ -442,7 +442,7 @@ background-size: contain;
  .site-co {
     width: 80%;
     margin-top: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -757,7 +757,7 @@ background-position: center;
     }
     .site-co {
         width: 80%;
-        margin-top: 3rem;
+   
         
     }
     .site-co p {
