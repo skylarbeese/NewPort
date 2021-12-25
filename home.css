@@ -259,7 +259,7 @@ li a{
     color: white;
     font-size: 30px;
     z-index: 3;
-    transform: translate(520px, 0px);
+    transform: translate(620px, 0px);
 }
 .img-gr:hover .grad {
     transform: translate(0px, 0px);
