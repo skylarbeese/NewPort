@@ -472,6 +472,14 @@ font-family: 'Cormorant Garamond', serif;
 } 
  }
  @media screen and (min-width: 0px) and (max-width:600px) {
+  .wires {
+    width: 90%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 2rem;
+}
   .img-back {
     width: 100%;
     height: 100%;
