@@ -441,8 +441,8 @@ background-size: contain;
 
  .site-co {
     width: 80%;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -1188,6 +1188,14 @@ background-size: contain;
     }
     .quote h1 {
         font-size: 20px;
+    }
+    .final-con-auto {
+        width: 100%;
+        height: 300px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: .5rem;
     }
  } /*
  @media screen and (min-width: 0px) and (max-width:470px) {
