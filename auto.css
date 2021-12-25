@@ -414,7 +414,7 @@ background-size: contain;
      align-items: center;
      display: flex;
      flex-direction: column;
-     padding-bottom: 12rem;
+     padding-bottom: 10rem;
  }
  .skew::after {
      position: absolute;
@@ -430,9 +430,19 @@ background-size: contain;
      transform-origin: top left;
     z-index: -1;
  } 
+ .final-img-con-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+ }
+
  .site-co {
     width: 80%;
-    margin-top: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
 }
@@ -620,7 +630,7 @@ background-position: center;
     
     background-color: #3B6E70;
     box-sizing: border-box;
-    padding-top: 5rem;
+    padding-top: 15rem;
     padding-bottom: 2rem;
     
     align-items: center;
@@ -656,7 +666,7 @@ background-position: center;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-   
+    margin-top: 1rem;
     padding: .5rem;
 }
 .wire-img-con {
