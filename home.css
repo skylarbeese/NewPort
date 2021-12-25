@@ -274,7 +274,7 @@ li a{
 }
 .footer {
     width: 100%;
-    height: 20vh;
+    height: 200px;
    
     justify-content: center;
     align-items: center;
@@ -393,6 +393,24 @@ li a{
     font-weight: lighter;
 }
 @media screen and (min-width: 0px) and (max-width:550px) {
+    .footer-text {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    .ft h2{
+        font-weight: bolder;
+    }
+    .list-sc {
+        width: 100%;
+        justify-content: space-around;
+        align-items: initial;
+        display: flex;
+        
+    }
     .img-gr {
         width: 100%;
         height: 250px;
