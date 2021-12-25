@@ -71,7 +71,7 @@ background-size: contain;
     .about-ed {
         width: 100%;
         justify-content: initial;
-        align-items: initial;
+        align-items: center;
         display: flex;
         flex-direction: column;
     }
