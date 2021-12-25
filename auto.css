@@ -1020,7 +1020,17 @@ background-size: contain;
 
  }
  @media screen and (min-width: 0px) and (max-width:660px) {
-
+    .skew3 {
+       
+        padding-top: 10rem;
+        padding-bottom: 0rem;
+        
+    }
+    .skew4 {
+      
+        padding-top: 10rem;
+        
+    }
 
     .site-con {
         width: 100%;
