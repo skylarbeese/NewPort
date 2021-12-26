@@ -560,6 +560,13 @@ font-family: 'Cormorant Garamond', serif;
 
  }
  @media screen and (min-width: 0px) and (max-width:500px) {
+  .photo-final {
+    width: 90%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   .wires {
     width: 90%;
     
