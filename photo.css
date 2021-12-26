@@ -251,6 +251,21 @@ font-family: 'Cormorant Garamond', serif;
   flex-direction: column;
   margin-top: 0rem;
 }
+.final-photo-img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+}
+.photo-final {
+  width: 90%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .mock-re {
   width: 100%;
   display: flex;
