@@ -242,35 +242,51 @@ font-family: 'Cormorant Garamond', serif;
   display: flex;
   flex-direction: column;
 }
+/*----------------------------------------------*/
 .photo-re {
   width: 100%;
-  justify-content: space-around;
-  display: flex;
-  margin-top: 5rem;
-}
-.mock-re {
-  width: 50%;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top: 0rem;
+}
+.mock-re {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.mock-re-img {
+  width: 90%;
+  justify-content: space-around;
+  align-content: center;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mock-img-2 {
+  width: 50%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .mock-re .over {
-  width: 100%;
+  width: 50%;
  
 }
 .mock-img-1 {
+  
   width: 100%;
-  height: 800px;
+  height: 2400px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
-.mock-img-2 {
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+
+
 @media screen and (min-width: 0px) and (max-width:1200px) { 
   .wires {
     width: 90%;
@@ -330,12 +346,12 @@ font-family: 'Cormorant Garamond', serif;
     display: flex;
     flex-direction: column;
   }
-  .photo-re {
+ /* .photo-re {
     width: 100%;
     justify-content: space-around;
     display: flex;
     margin-top: 2rem;
-}
+} */
   .wires {
     width: 90%;
     height: 500px;
@@ -372,13 +388,13 @@ font-family: 'Cormorant Garamond', serif;
     width: 70%;
     
   }
-  .photo-re {
+ /* .photo-re {
     width: 100%;
     justify-content: inherit;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-  }
+  } 
 .mock-re {
   width: 100%;
   justify-content: center;
@@ -386,7 +402,7 @@ font-family: 'Cormorant Garamond', serif;
   display: flex;
   flex-direction: column;
   }
-
+ */
   .mock-img-1 {
     width: 100%;
     height: 800px;
@@ -409,6 +425,19 @@ font-family: 'Cormorant Garamond', serif;
 } */
  }
  @media screen and (min-width: 0px) and (max-width:700px) {
+ /* .mock-re-img {
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} */
+.mock-img-2 {
+  height: 250px;
+  padding-top: 1rem;
+}
   .img-background-con {
     width: 100%;
     height: 800px;
@@ -451,13 +480,7 @@ font-family: 'Cormorant Garamond', serif;
   background-position: center center;
   margin-bottom: 2rem;
 }
-.mock-img-2 {
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+
 .open-con .over p{
   font-size: 15px;
 }
