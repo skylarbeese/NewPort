@@ -186,6 +186,9 @@ li a{
 .img-gr-4 {
     background-image: linear-gradient(180deg, #87CEFA, #87CEFA);
 }
+.img-gr-5 {
+    background-image: linear-gradient(140deg, #f0f077, #f3f3b4);
+}
 .img {
     
     width: 80%;
