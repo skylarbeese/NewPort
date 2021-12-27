@@ -124,6 +124,20 @@ font-family: 'Cormorant Garamond', serif;
         justify-content: center;
         align-items: center;
     }
+    .s-text h1 {
+        color: black;
+        font-size: 30px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+    }
+    .s-text p {
+        color: black;
+        font-size: 20px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
     .sign {
@@ -150,5 +164,19 @@ font-family: 'Cormorant Garamond', serif;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+    .s-text h1 {
+        color: black;
+        font-size: 25px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+    }
+    .s-text p {
+        color: black;
+        font-size: 18px;
+        padding-top: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: lighter;
     }
 }
