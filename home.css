@@ -13,6 +13,17 @@
 .home-con {
     width: 80%;
 }
+.img-gr h2 {
+    color: white;
+    z-index: 4;
+    transform: translate(1050px, 0px);
+    width: 70%;
+    font-size: 18px;
+}
+.img-gr:hover h2 {
+    transform: translate(0px, 0px);
+    transition: .8s;
+}
 @media screen and (min-width: 0px) and (max-width:800px) {
     .home-con {
         width: 85%;
@@ -78,13 +89,36 @@ li a{
         
         float: right;
     }
+    .img-gr h2 {
+        color: white;
+        z-index: 4;
+        transform: translate(1050px, 0px);
+        width: 80%;
+        font-size: 18px;
+    }
 }
+@media screen and (min-width: 0px) and (max-width:550px) {
+    .img-gr h2 {
+        color: white;
+        z-index: 4;
+        transform: translate(1050px, 0px);
+        width: 90%;
+        font-size: 15px;
+    }
+ }
 @media screen and (min-width: 0px) and (max-width:400px) { 
     nav{
         width: 60%;
         height: 100%;
         
         float: right;
+    }
+    .img-gr h2 {
+        color: white;
+        z-index: 4;
+        transform: translate(1050px, 0px);
+        width: 90%;
+        font-size: 12px;
     }
 }
 /*-------------------------------------------------into--------------------------------------------*/
@@ -222,7 +256,7 @@ li a{
     height: 100%;
     position: absolute;
     z-index: 1;
-    transform: translate(750px, 0px);
+    transform: translate(1050px, 0px);
 }
 
 .text {
@@ -237,9 +271,7 @@ li a{
     font-size: 17px;
     font-weight: lighter;
 }
- .proj h2 {
-    font-size: 20px;
-}
+
 .img-gr a {
     width: 100%;
     height: 450px;
@@ -249,7 +281,9 @@ li a{
     flex-direction: column;
     position: absolute;
     z-index: 2;
+    text-decoration: none;
 }
+
  button {
     
     border: solid white 3px;
@@ -257,7 +291,7 @@ li a{
     padding-right: 2rem;
     padding-bottom: .5rem;
     padding-top: .5rem;
-    background-color: rgb(15, 15, 15, 0.5);
+    background-color: rgb(15, 15, 15, 0.7);
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     color: white;
@@ -272,6 +306,10 @@ li a{
 .img-gr:hover button {
     transform: translate(0px, 0px);
     transition: .8s;
+}
+.img-gr:hover .img {
+    transition: .8s;
+    transform: scale(1.1);
 }
  button:hover {
     background-color: rgb(15, 15, 15, 0.8);
