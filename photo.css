@@ -22,7 +22,7 @@
 .banner-img-con {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #3B6E70;
+    background-color: #D8E8D8;
     width: 100%;
   
     justify-content: center;
@@ -64,7 +64,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .goal-con {
   width: 100%;
-  background-color: #3B6E70;
+  background-color: #D8E8D8;
   padding-top: 5rem;
   padding-bottom: 5rem;
   justify-content: center;
@@ -188,6 +188,17 @@ font-family: 'Cormorant Garamond', serif;
   background-position: center center;
   
 }
+.logo-2 {
+  width: 50%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+   
+ }
 .test-logo .over {
   margin-top: 3rem;
 }
@@ -199,7 +210,7 @@ font-family: 'Cormorant Garamond', serif;
   
 }
 .wires-con-div {
-  background-color: #3B6E70;
+  background-color: #D8E8D8;
   width: 100%;
   align-items: center;
   display: flex;
