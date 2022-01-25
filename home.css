@@ -445,9 +445,9 @@ padding-bottom: 2rem;
  @media screen and (min-width: 0px) and (max-width:800px) {
     .projects-con {
     
-        margin-top: 2rem;
+        
         width: 100%;
-       margin-bottom: 3rem;
+      
         justify-content: center;
         align-items: center;
         display: flex;
@@ -558,6 +558,6 @@ padding-bottom: 2rem;
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-bottom: 1rem;
+        
     }
 }
