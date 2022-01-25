@@ -401,6 +401,19 @@ padding-top: .5rem;
 font-family: 'Cormorant Garamond', serif;
 font-weight: normal;
 padding-bottom: 2rem;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.ft h1 a{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+
+
+}
+.ft h1 {
+    padding-left: .5rem;
 }
 @media screen and (min-width: 0px) and (max-width:970px) {
    
