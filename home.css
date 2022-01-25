@@ -28,6 +28,7 @@
     transform: translate(0px, 0px);
     transition: .8s;
 }
+/*
 @media screen and (min-width: 0px) and (max-width:800px) {
     .home-con {
         width: 85%;
@@ -43,11 +44,13 @@
         width: 80%;
     }
  }
+ */
 /*--------------------------------------------nav--------------------------------------------------*/
 .nav{
     width: 100%;
     height: 15vh;
-    
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 nav{
     width: 100%;
@@ -91,25 +94,22 @@ background-position: center;
 
 }
 @media screen and (min-width: 0px) and (max-width:800px) { 
-    nav{
+    .links {
         width: 30%;
         height: 100%;
-        
-        float: right;
-    }
-    .nav{
-        width: 100%;
-        height: 10vh;
-        
-    }
-}
+      }
+      li a {
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+      }
+    
+} 
 @media screen and (min-width: 0px) and (max-width:600px) { 
-    nav{
-        width: 40%;
+    .links {
+        width: 30%;
         height: 100%;
-        
-        float: right;
-    }
+      }
     .img-gr h2 {
         color: white;
         z-index: 4;
@@ -128,12 +128,15 @@ background-position: center;
     }
  }
 @media screen and (min-width: 0px) and (max-width:400px) { 
-    nav{
-        width: 60%;
+    .links {
+        width: 30%;
         height: 100%;
-        
-        float: right;
-    }
+      }
+      li a {
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+      }
     .img-gr h2 {
         color: white;
         z-index: 4;
@@ -154,6 +157,10 @@ background-position: center;
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
     width: 60%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .intr-con {
     width: 100%;
@@ -165,7 +172,42 @@ background-position: center;
     display: flex;
     flex-direction: column;
 }
+@media screen and (min-width: 0px) and (max-width:890px) {
+    .intr-con h1 {
+        font-size: 35px;
+        padding-bottom: .5rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+      }
+      .intr-con h2 {
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: normal;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .intr-con {
+        width: 100%;
+        height: 300px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+}
 @media screen and (min-width: 0px) and (max-width:700px) {
+    .links {
+        width: 40%;
+        height: 100%;
+      }
+    .nav {
+        width: 100%;
+        height: 10vh;
+      }
     .intr-con h1 {
         font-size: 30px;
         padding-bottom: .5rem;
@@ -182,24 +224,40 @@ background-position: center;
         padding-top: 2rem;
         padding-bottom: 1rem;
     }
+    .intr-con {
+        width: 100%;
+        height: 250px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
 }
 @media screen and (min-width: 0px) and (max-width:480px) {
+    .intr-con {
+        width: 100%;
+        height: 200px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
     .intr-con h1 {
-        font-size: 20px;
+        font-size: 23px;
         padding-bottom: .5rem;
         font-family: 'Cormorant Garamond', serif;
         font-weight: normal;
     }
     .intr-con h2 {
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Cormorant Garamond', serif;
         font-weight: normal;
     }
-    .intr-con {
-        width: 90%;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
+  
 }
 /*---------------------------------------------------grid---------------------------------------*/
 .projects-con {
@@ -343,13 +401,21 @@ background-position: center;
 }
 .footer {
     width: 100%;
-    height: 200px;
+    height: 10px;
    
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 
+}
+.ft {
+    color: rgb(180, 180, 180);
+font-size: 10px;
+padding-top: .5rem;
+font-family: 'Cormorant Garamond', serif;
+font-weight: normal;
+padding-bottom: 2rem;
 }
 @media screen and (min-width: 0px) and (max-width:970px) {
    
