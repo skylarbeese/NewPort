@@ -22,7 +22,7 @@
 .banner-img-con {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #D8E8D8;
+    background-color: #CFEEF7;
     width: 100%;
   
     justify-content: center;
@@ -64,7 +64,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 .goal-con {
   width: 100%;
-  background-color: #D8E8D8;
+  background-color: #CFEEF7;
   padding-top: 5rem;
   padding-bottom: 5rem;
   justify-content: center;
@@ -210,7 +210,7 @@ font-family: 'Cormorant Garamond', serif;
   
 }
 .wires-con-div {
-  background-color: #D8E8D8;
+  background-color: #CFEEF7;
   width: 100%;
   align-items: center;
   display: flex;
