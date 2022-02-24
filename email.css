@@ -94,6 +94,7 @@ background-position: center center;
     background-position: center center;
 }
 .res-img {
+    margin-top: 2rem;
     width: 30%;
 height: 50%;
 justify-content: center;
