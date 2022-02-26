@@ -48,25 +48,27 @@ background-size: contain;
   
     color: black;
    
-    font-family: 'Cormorant Garamond', serif;
+  
 }
 .about-header h1 {
     font-size: 70px;
     color: black;
     font-weight: normal;
+    font-family: 'El Messiri', sans-serif;
 }
 .about-header h2 {
-    font-size: 25px;
-    color: black;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
     font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
 }
 .my-intro-text {
     width: 80%;
     padding-top: 1rem;
-    font-size: 19px;
-    color: black;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
     font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (min-width: 0px) and (max-width:900px) { 
     .about-ed {
@@ -103,7 +105,7 @@ background-size: contain;
         font-size: 16px;
         color: black;
         font-weight: lighter;
-        font-family: 'Cormorant Garamond', serif;
+      
     }
 
 }
@@ -128,7 +130,7 @@ background-size: contain;
         font-size: 14px;
         color: black;
         font-weight: lighter;
-        font-family: 'Cormorant Garamond', serif;
+      
     }
 }
 
@@ -152,7 +154,7 @@ background-size: contain;
     font-size: 35px;
     color: black;
     font-weight: normal;
-    font-family: 'Cormorant Garamond', serif;
+ 
 }
 .list-ex {
     width: 100%;
@@ -172,26 +174,26 @@ background-size: contain;
     font-size: 22px;
     color: black;
     font-weight: normal;
-    font-family: 'Cormorant Garamond', serif;
+   
 }
 .name-job h2 {
     font-size: 22px;
     color: black;
     font-weight: normal;
-    font-family: 'Cormorant Garamond', serif;
+    
     padding-left: 3rem;
 }
 .date-job h1 {
     font-size: 20px;
     color: black;
     font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+   
 }
 .date-job h2 {
     font-size: 20px;
     color: black;
     font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+  
     padding-left: 1rem;
 }
 .info-div {
@@ -215,24 +217,24 @@ background-size: contain;
     .name-job h1 {
         font-size: 18px;
         font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+   
      }
     .name-job h2 {
         font-size: 18px;
          padding-left: 3rem;
          font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+    
     }
     .date-job h1 {
         font-size: 18px;
         font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+  
     }
     .date-job h2 {
         font-size: 18px;
         padding-left: 1rem;
         font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+
     }
 }
 @media screen and (min-width: 0px) and (max-width:450px) { 
@@ -245,18 +247,18 @@ background-size: contain;
         padding-top: 1rem;
         font-size: 20px;
         font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+
     }
     .name-job h1 {
         font-size: 15px;
         font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+    
      }
     .name-job h2 {
         font-size: 15px;
          padding-left: 3rem;
          font-weight: lighter;
-    font-family: 'Cormorant Garamond', serif;
+   
     }
     .date-job h1 {
         font-size: 15px;
