@@ -107,7 +107,7 @@ a {
 }
 .Step {
     font-size: 12px;
-    color: rgb(82, 82, 82);
+    color: #8ccfff;
     font-family: 'Ubuntu', sans-serif;
 }
 .img-con {
@@ -190,6 +190,9 @@ a {
   .img-bk {
     background-color: #f2f3f4;
   }
+  .logo-con {
+    background-color: #d7928f;
+  }
    .btn-proto {
      margin-top: 2rem;
      margin-bottom: 2rem;
@@ -257,6 +260,16 @@ a {
   .btn-proto h1 {
     font-size: 18px;
     padding-bottom: 1rem;
+  }
+  .sign-img {
+    margin-right: 1rem;
+    width: 80%;
+
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+  
   }
   }
   @media screen and (min-width: 0px) and (max-width: 800px) {
@@ -380,9 +393,9 @@ a {
       
     }
     .sign-img {
-      margin-bottom: .1rem;
+      margin-bottom: 1rem;
       width: 80%;
-height: 450px;
+height: 350px;
 background-color: transparent;
 background-position: center;
 background-repeat: no-repeat;
@@ -451,14 +464,15 @@ background-size: contain;
     .auto-title h1 {
       font-size: 30px;
     }
-    .sign-img {
-      margin-bottom: .1rem;
-      width: 80%;
-height: 450px;
-background-color: transparent;
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
     
-    }
+      .sign-img {
+        margin-bottom: 1rem;
+        width: 80%;
+  height: 350px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+      
+      }
   }

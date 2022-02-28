@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .home{
     width: 100%;
@@ -47,33 +48,28 @@
  }
  */
 /*--------------------------------------------nav--------------------------------------------------*/
-.nav{
-    width: 90%;
-    height: 15vh;
-   
+header {
+    background-color:white;
+  
 }
 nav{
-    width: 100%;
-    height: 100%;
     
+    min-height: 15vh; 
+    padding: 0 84px;
     
      justify-content: space-between;
     align-items: center;
     display: flex;
    
 }
-.links {
-    width: 20%;
-    height: 100%;
-    
-   
-}
-ul {
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
+
+.mun {
+  
+    gap: 60px;
+    justify-content: space-between;
     align-items: center;
     display: flex;
+   
 }
 li {
    
@@ -91,24 +87,73 @@ li a:hover {
    
 }
 .logo-nav {
-    width: 10%;
-height: 50%;
+    width: 50px;
+height: 50px;
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
 
 }
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger .bar{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    
+ }
+@media screen and (min-width: 0px) and (max-width:1000px) {
+  
+ }
 @media screen and (min-width: 0px) and (max-width:800px) { 
-    .links {
-        width: 30%;
-        height: 100%;
-      }
+   
       li a {
         font-size: 18px;
         color: black;
         text-decoration: none;
       }
-    
+      .burger {
+        width: 30px;
+        height: 20px;
+        
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .burger.active .bar:nth-child(2){
+           opacity: 0;
+    }
+    .burger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+ }
+ .burger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+   .mun {
+
+  
+  position: absolute;
+   
+       gap: 0;
+       flex-direction: column;
+      left: -100%;  
+      top: 100px;  
+       text-align: center;
+       transition: .3s;
+       background-color:white;
+       z-index: 1;
+       width: 100%;
+       box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   }
+   .mun li {
+       margin: 40px 0;
+   }
+   .mun.active {
+         left: 0%;  
+   } 
 } 
 @media screen and (min-width: 0px) and (max-width:600px) { 
     .links {
@@ -229,7 +274,7 @@ background-position: center;
         height: 100%;
       }
     .nav {
-        width: 100%;
+        width: 90%;
         height: 10vh;
       }
     .intr-con h1 {
@@ -514,9 +559,14 @@ display: flex;
     }
 }
 @media screen and (min-width: 0px) and (max-width:700px) {
+    nav {
+      
+        padding: 0 44px;
+      
+      }
     .logo-nav {
-        width: 20%;
-        height: 50%;
+        width: 30px;
+        height: 30px;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

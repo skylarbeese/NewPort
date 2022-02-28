@@ -1,6 +1,8 @@
-const test = document.getElementsByClassName("test")
-test.innerText = "yrs"
+const burger = document.querySelector(".burger");
+const mun = document.querySelector(".mun");
 
-for (var i = 0; i < test.length; i++) {
-    
-}
+burger.addEventListener('click', () => {
+    console.log('yes')
+    burger.classList.toggle('active')
+    mun.classList.toggle("active")
+})

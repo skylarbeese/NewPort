@@ -6,7 +6,7 @@
 "img/topLogo.png" 
         type = "image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<script src="home.js" ></script>
+
 <link rel="stylesheet" href="home.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,27 +20,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=EB+Garamond&family=El+Messiri&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Kaushan+Script&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Pontano+Sans&family=Quintessential&family=Source+Sans+Pro:wght@200&family=Supermercado+One&family=Ubuntu&display=swap" rel="stylesheet"> 
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="logo-nav" style="background-image: url(img/topLogo.png);"></div>
+      
+        <ul class="mun">
+            <li><a href="/">Work</a</li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+     
+        <div class="burger n">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+    </nav>
+</header>
   <div class="home">
 
-      <div class="nav">
-          <nav>
-            <div class="logo-nav" style="background-image: url(img/topLogo.png);"></div>
-             <div class="links">
-              <ul>
-                  <li><a href="/">Work</a</li>
-                  <li><a href="about.html">About Me</a></li>
-                  <li></li>
-              </ul>
-              </div>
-          </nav>
-      </div>
+  
       
   <div class="home-con">
   <div class="intr-con">
-    
+  
     <div class="intr-text">
       <h1 class="test"></h1>
+
       <h1>Hello, my name is Skylar.</h1>
+     
       <h2>I am a UX/UI designer based in Utah. I design digital solutions to solve your problems. </h2>
     </div>
 <!---   <div class="land-back" style="background-image: url(img/ar.png);"></div>  -->
@@ -115,5 +123,5 @@
   </div> 
   </div>
 </body>
-
+<script src="home.js" ></script>
 </html> 
