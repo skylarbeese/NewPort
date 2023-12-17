@@ -368,11 +368,14 @@ background-position: center;
 .img-gr-3 {
     background-image: linear-gradient(280deg, #F0F8FF, #7FFFD4);
 }
+.img-gr-4 {
+    background-image: linear-gradient(200deg, #3f586e, #3dce9e);
+}
 .img-gr-1 {
     background-image: linear-gradient(70deg, #DB7093, #f5e2e2, #DB7093);
 }
-.img-gr-4 {
-    background-image: linear-gradient(180deg, #87CEFA, #87CEFA);
+.img-gr-7 {
+    background-image: linear-gradient(180deg, #000000, #00FFFF);
 }
 .img-gr-5 {
     background-image: linear-gradient(140deg, #f0f077, #f3f3b4);
